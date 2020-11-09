@@ -1,4 +1,5 @@
 import React from 'react';
+import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
 import './App.css';
 
 class App extends React.Component {
@@ -30,7 +31,9 @@ class App extends React.Component {
     // displays content to the page
   render() {
     return (
-      <div>Hello from React</div>
+      <Router>
+
+      </Router>
     );
   }
 }
