@@ -13,8 +13,17 @@ class App extends React.Component {
         { title: 'About', path: '/about' },
         { title: 'Contact', path: '/contact' },
       ],
-
-      
+      home: {
+         title: 'Focus. Execute.',
+         subTitle: 'Projects that matter',
+         Text: 'Checkout my work below'
+      },
+      about: {
+        title: 'About Me'
+      },
+      contact: {
+        title: 'Let\'s Talk'
+      }
     }
   }
 
