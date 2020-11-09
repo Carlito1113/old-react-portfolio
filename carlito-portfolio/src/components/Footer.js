@@ -10,8 +10,8 @@ function Footer() {
         <footer className="mt-5">
             <Container>
                 <Row>
-                    <col>
-                    
+                    <col className="p-0" md={3} sm={12}>
+                        Carlito Algarin
                     </col>
                 </Row>
             </Container>
