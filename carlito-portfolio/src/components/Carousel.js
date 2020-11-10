@@ -11,7 +11,7 @@ class Carousel extends React.Component {
                         title: 'Wine&Dines',
                         subTitle: 'Recipe generator & wine pairing app',
                         imgSrc: wineanddines,
-                        link: '',
+                        link: 'https://andrewrb22.github.io/-.theFederationOfCoders-/',
                         selected: false
                     },
                     {
@@ -19,7 +19,7 @@ class Carousel extends React.Component {
                         title: 'Audiophyle',
                         subTitle: 'Application for music lovers',
                         imgSrc: audiophyle,
-                        link: '',
+                        link: 'https://audiophyle-music-platform.herokuapp.com/',
                         selected: false
                     },
                     {
