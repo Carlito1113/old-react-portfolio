@@ -9,6 +9,9 @@ import fitnesstracker from '../assets/images/fitnesstracker.png';
 import notetaker from '../assets/images/notetaker.png';
 import burgertime from '../assets/images/burgertime.png';
 
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+
 class Carousel extends React.Component {
 
         constructor(props){
