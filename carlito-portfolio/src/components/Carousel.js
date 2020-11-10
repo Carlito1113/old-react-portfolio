@@ -24,10 +24,10 @@ class Carousel extends React.Component {
                     },
                     {
                         id: 2,
-                        title: '',
-                        subTitle: '',
-                        imgSrc: ,
-                        link: '',
+                        title: 'Budget Tracker',
+                        subTitle: 'An application for budget calculation',
+                        imgSrc: budgettracker,
+                        link: 'https://damp-falls-85688.herokuapp.com/',
                         selected: false
                     },
                 ]
