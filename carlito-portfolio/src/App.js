@@ -23,7 +23,7 @@ class App extends React.Component {
         { title: 'Contact', path: '/contact' },
       ],
       home: {
-         title: 'Focus. Execute.',
+         title: 'Plan. Achieve.',
          subTitle: 'Projects that matter',
          text: 'Checkout my work below'
       },
