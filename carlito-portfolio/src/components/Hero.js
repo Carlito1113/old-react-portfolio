@@ -7,7 +7,7 @@ import Col from 'react-bootstrap/Col';
 function Hero(props) {
 
     return(
-        <Jumbotron className="bg-transparent">
+        <Jumbotron className="bg-transparent jumbotron-fluid">
             <Container>
                 <Row>
                     <Col>
