@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Card from '../components/Card';
+
 import wineanddines from '../assets/images/wineanddines.png';
 import audiophyle from '../assets/images/audiophyle.png';
 import budgettracker from '../assets/images/budgettracker.png';
@@ -83,13 +85,17 @@ class Carousel extends React.Component {
 
         makeItems = (items) => {
             return items.map(item => {
-                return <Card item={item} onClick={(e => this.handleCardClick(item.id, e))} />
+                return <Card item={item} onClick={(e => this.handleCardClick(item.id, e))} key={item.id} />
             })
         }
 
         render() {
             return(
-                <p>Carousel Works!</p>
+                <Container fluid={true}>
+                    <Row className="justify-content-around">
+                        {this.makeItems(this.state.items)}
+                    </Row>
+                </Container>
             );
         }
 
