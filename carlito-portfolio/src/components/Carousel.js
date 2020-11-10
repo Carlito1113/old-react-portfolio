@@ -1,5 +1,12 @@
 import React from 'react';
 
+import wineanddines from '../assets/images/wineanddines.png';
+import audiophyle from '../assets/images/audiophyle.png';
+import budgettracker from '../assets/images/budgettracker.png';
+import fitnesstracker from '../assets/images/fitnesstracker.png';
+import notetaker from '../assets/images/notetaker.png';
+import burgertime from '../assets/images/burgertime.png';
+
 class Carousel extends React.Component {
 
         constructor(props){
