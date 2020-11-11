@@ -20,13 +20,24 @@ class ContactPage extends React.Component {
         }
     }
 
+    handleChange = (event) => {
+
+        const target = event.target;
+        const value = target.type === 'checkbox' ? target.checked : target.value;
+        const name = target.name;
+
+        this.setState({
+            [name]: value
+        })
+    }
+
     render() {
         return(
             <div>
                 <Hero title={this.props.title} />
 
                 <Content>
-                    <Form>
+                    <Form onSubmit={this.handleSubmit}>
                         <Form.Group>
                             <Form.Label htmlFor="full-name" >Full Name</Form.Label>
                             <Form.Control id="full-name" name="name" type="text" value={this.state.name} onChange={this.handleChange} />
@@ -46,7 +57,9 @@ class ContactPage extends React.Component {
                             Send
                         </Button>
 
-                        
+                        {this.state.emailSent === true && <p className="d-inline success-msg">Email Sent</p>}
+                        {this.state.emailSent === false && <p className="d-inline err-msg">Email Not Sent</p>}
+
                     </Form>
                 </Content>
             </div>
