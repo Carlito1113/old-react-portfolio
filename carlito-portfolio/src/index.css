@@ -12,7 +12,7 @@ body {
       monospace;
   }
 
-  
+
 .g-card {
     margin: 20px;
 }
@@ -23,6 +23,8 @@ body {
     height: 480px;
     box-shadow: 0px 0px 3px 1px #ccc;
 }
+
+/* gcardimage height was 480 while width was 300  */
 
 .g-card-info {
     margin-top: 10px;
