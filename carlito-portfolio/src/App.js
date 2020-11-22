@@ -24,14 +24,14 @@ class App extends React.Component {
       ],
       home: {
          title: 'Plan. Achieve.',
-         subTitle: 'Projects that matter',
-         text: 'Checkout my work below'
+         subTitle: 'Checkout my work below',
+        //  text: 'Checkout my work below'
       },
       about: {
         title: 'About Me'
       },
       contact: {
-        title: 'Let\'s Talk'
+        title: 'Contact Me'
       }
     }
   }
