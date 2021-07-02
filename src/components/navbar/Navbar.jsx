@@ -2,9 +2,9 @@ import './navbar.scss';
 import PersonIcon from '@material-ui/icons/Person';
 import MailIcon from '@material-ui/icons/Mail';
 
-export default function Navbar() {
+export default function Navbar({ menuOpen, setMenuOpen }) {
   return (
-    <div className="navbar">
+    <div className={"navbar " + (menuOpen && 'active')}>
       <div className="wrapper">
         <div className="left">
           <a href="#intro" className="logo">
@@ -19,7 +19,13 @@ export default function Navbar() {
             <span>carlito1113@yahoo.com</span>
           </div>
         </div>
-        <div className="right"></div>
+        <div className="right">
+          <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
+            <span className="line1"></span>
+            <span className="line2"></span>
+            <span className="line3"></span>
+          </div>
+        </div>
       </div>
     </div>
   );
