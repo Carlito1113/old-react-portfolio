@@ -51,9 +51,9 @@
           color: crimson;
         }
         // this makes the cursor at the end of the intro dynamic text blink, unsure if I will keep this
-        .ityped-cursor {
-          animation: blink 1s infinite;
-        }
+        // .ityped-cursor {
+        //   animation: blink 1s infinite;
+        // }
 
         @keyframes blink {
           50% {

@@ -11,7 +11,7 @@ export default function Intro() {
       showCursor: true,
       backDelay: 1113,
       backSpeed: 60,
-      strings: ['Developer', 'Musician', "Longboarder"],
+      strings: ['Developer', 'Musician', "Learner"],
     });
   }, [])
 

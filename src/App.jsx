@@ -18,7 +18,8 @@ function App() {
         <Intro />
         <Portfolio />
         <Works />
-        <Testimonials />
+        {/* this is the testimonial section which I will focus on... once I actually have some. */}
+        {/* <Testimonials /> */}
         <Contact />
       </div>
     </div>
