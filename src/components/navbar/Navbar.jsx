@@ -8,7 +8,7 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
       <div className="wrapper">
         <div className="left">
           <a href="#intro" className="logo">
-          steadfast.
+          simplify.
           </a>
           <div className="itemContainer">
             <PersonIcon className="icon" />
