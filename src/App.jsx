@@ -20,7 +20,8 @@ function App() {
         <Works />
         {/* this is the testimonial section which I will focus on... once I actually have some. */}
         {/* <Testimonials /> */}
-        <Contact />
+        {/* I need to set up functionality for the contact section */}
+        {/* <Contact /> */}
       </div>
     </div>
   );
