@@ -1,7 +1,7 @@
 @import '../../global.scss';
 
 .intro {
-  background-color: white;
+  background-color: #dddddd;
   display: flex;
 
   @include mobile{
@@ -16,7 +16,7 @@
     .imgContainer {
       width: 700px;
       height: 700px;
-      background-color: crimson;
+      background-color: $accentColor;
       border-radius: 50%;
       display: flex;
       align-items: flex-end;
@@ -74,7 +74,7 @@
 
         span {
           font-size: inherit;
-          color: crimson;
+          color: $accentColor;
         }
         // this makes the cursor at the end of the intro dynamic text blink, unsure if I will keep this
         // .ityped-cursor {

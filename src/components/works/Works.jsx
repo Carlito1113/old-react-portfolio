@@ -7,7 +7,7 @@ export default function Works() {
   const data = [
     {
       id: '1',
-      icon: './assets/mobile.png',
+      icon: './assets/mern.png',
       title: 'Recommend',
       desc: 'An MERN app where users can search, save, and recommend books',
       img: './assets/recommend.png',
@@ -21,7 +21,7 @@ export default function Works() {
     },
     {
       id: '3',
-      icon: './assets/mobile.png',
+      icon: './assets/globe.png',
       title: 'Wine&Dines',
       desc: 'This is a web application where the user can search a recipe based upon a protein type and receive a random recipe with a paired type of wine.',
       img: './assets/wineanddine.png',
@@ -50,7 +50,14 @@ export default function Works() {
                   </div>
                   <h2>{d.title}</h2>
                   <p>{d.desc}</p>
-                  <span>Projects</span>
+                  <span>
+                    <a
+                      href="#portfolio"
+                      className="worksPortfolio"
+                    >
+                      Portfolio
+                    </a>
+                  </span>
                 </div>
               </div>
               <div className="right">

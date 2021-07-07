@@ -1,11 +1,15 @@
 @import '../../global.scss';
 
 .works {
-  background-color: crimson;
+  background-color: $accentColor;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
+
+  .worksPortfolio {
+    color: black;
+  }
 
   .arrow {
     height: 50px;
@@ -83,7 +87,7 @@
               width: 40px;
               height: 40px;
               border-radius: 50%;
-              background-color: coral;
+              // background-color: coral;
               display: flex;
               align-items: center;
               justify-content: center;
@@ -94,7 +98,7 @@
               }
 
               img{
-                width: 25px;
+                width: 40px;
 
                 @include mobile {
                   width: 15px;
