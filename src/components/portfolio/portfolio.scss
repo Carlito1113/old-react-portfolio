@@ -59,7 +59,6 @@
       color: white;
       position: relative;
       transition: all 1s ease;
-      cursor: pointer;
 
       @include mobile {
         width: 130px;
@@ -68,7 +67,7 @@
 
       h3 {
         position: absolute;
-        font-size: 20px;
+        font-size: 30px;
       }
 
       img {

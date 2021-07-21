@@ -8,24 +8,25 @@ export default function Works() {
     {
       id: '1',
       icon: './assets/mern.png',
+      title: 'RecipeBook',
+      desc: 'This is a MERN application where the user can create an account, search, and save recipes.',
+      img: './assets/recipebook.png',
+    },
+    {
+      id: '2',
+      icon: './assets/mern.png',
       title: 'Recommend',
       desc: 'An MERN app where users can search, save, and recommend books',
       img: './assets/recommend.png',
     },
     {
-      id: '2',
+      id: '3',
       icon: './assets/mobile.png',
       title: 'Audiophyle',
       desc: 'A Full-Stack application where users can search musicians and find their popular music, bios, and more.',
       img: './assets/audiophyle.png',
     },
-    {
-      id: '3',
-      icon: './assets/globe.png',
-      title: 'Wine&Dines',
-      desc: 'This is a web application where the user can search a recipe based upon a protein type and receive a random recipe with a paired type of wine.',
-      img: './assets/wineanddine.png',
-    },
+    
   ];
 
   const handleClick = way => {
